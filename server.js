@@ -36,7 +36,7 @@ mongoose.connect("mongodb://heroku_2tglz8p2:nee0kjvcp45r9ukpbr5vev2qs9@ds127936.
 // Routes
 
 app.get("/", function (req, res) {
-    res.render("index");
+    res.redirect("/scrape");
 });
 
 // A GET route for scraping the echojs website
